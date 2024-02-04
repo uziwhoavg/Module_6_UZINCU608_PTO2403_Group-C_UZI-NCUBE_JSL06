@@ -8,6 +8,8 @@ You will:
 
 In this coding challenge, you will build a simple menu display system for a fictional UberEats restaurant called "CodeCuisine." The goal is to display different categories of food items and allow users to add items to their order with a click. This challenge will help you apply various JavaScript concepts, including functions, closures, and event handling, to create an interactive menu.
 
+![alt text](JSL06-solution.gif)
+
 ## Objectives:
 
 - Create and use functions to dynamically populate the menu items on the page.
