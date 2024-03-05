@@ -19,6 +19,8 @@ function displayMenuItems(menu) {
 
         // Create an element to represent a list of items
 
+        // Append a list of items element to the menu container
+
         // Loop through the items in the category and create list items
 
             // Create a list item element
@@ -29,7 +31,7 @@ function displayMenuItems(menu) {
 
             // Append the list item to the list of items
 
-            // Append the list of items to the category element
+            
 }
 
 // Callback function for adding an item to the order
