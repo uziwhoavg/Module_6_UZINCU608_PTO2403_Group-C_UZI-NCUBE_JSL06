@@ -20,13 +20,9 @@ In this coding challenge, you will build a simple menu display system for a fict
 
 ## Instructions:
 
-1. **Setup Project Files**: Begin by creating three files: `index.html`, `index.css`, and `index.js`. Link your CSS and JS files to your HTML document.
+1. **Use the Project Files:** Begin by accessing the starter code in the JSL06 GitHub repo.
 
-2. **HTML Structure**: Build the HTML structure for your application. Include placeholders for the menu items and the order summary. Consider using `<div>` elements with appropriate IDs or classes for styling and scripting.
-
-3. **Styling**: Use CSS to style your menu and order summary. Make the user interface visually appealing, and ensure that it's responsive and easy to navigate.
-
-4. **JavaScript Implementation**: Use the provided starter code in `index.js` as a foundation for your application. The starter code contains placeholders for key functions and comments to guide you through the implementation.
+2. **JavaScript Implementation**: Use the provided starter code in `index.js` as a foundation for your application. The starter code contains placeholders for key functions and comments to guide you through the implementation.
 
     - `menu`: The `menu` object contains sample menu data, including categories and items. You can expand this menu with more items if needed.
 
@@ -36,7 +32,7 @@ In this coding challenge, you will build a simple menu display system for a fict
 
     - `initMenuSystem(menu)`: Call the `displayMenuItems` function with the menu data and attach event listeners to menu items.
 
-5. **Testing**: Thoroughly test your application to ensure that it correctly filters songs by genre for each Guardian and displays the playlists on the web page. Verify that you can add items to the order and that the order total updates as expected.
+3. **Testing**: Thoroughly test your application to ensure that it can correctly add items to the order and that the order total updates as expected.
 
 ## What You Need to Do:
 
