@@ -5,7 +5,6 @@ const menu = {
     Desserts: ["Tiramisu", "Cheesecake"]
 };
 
-
 //function to display menu items by category
 function displayMenuItems(menu) {
     // Get the menu container element from the HTML
