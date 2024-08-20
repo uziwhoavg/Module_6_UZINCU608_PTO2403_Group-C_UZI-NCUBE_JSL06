@@ -14,20 +14,36 @@
     <main>
         <section id="menu">
             <!-- Menu items will be dynamically generated here -->
+             <h2>Starters</h2>
+             <ul>
+                <li onclick="addToOrder('Garlic Bread', 30)">Garlic Bread</li>
+                <li onclick="addToOrder('Bruschetta', 30)">Bruschetta</li>
+             </ul>
+              
+             <h2>Main Courses</h2>
+             <ul>
+                <li onclick="addToOrder('Margherita Pizza', 80)">Margherita Pizza</li>
+                <li onclick="addToOrder('Spaghetti Carbonara', 90)">Spaghetti Carabona</li>
+             </ul>
+
+             <h2>Desserts</h2>
+             <ul>
+                <li onclick="addToOrder('Tiramisu', 40)">Tiramasu</li>
+                <li onclick="addToOrder('Cheesecake', 50)">Cheescake</li>
+             </ul>
+
         </section>
         <section id="order">
             <h2>Your Order</h2>
             <ul id="order-items">
                 <!-- Order items will be displayed here -->
             </ul>
-            <div id="order-total-wrap">
-                <span id="order-total">R0.00</span>
-            </div>
+            <p>Total: R<span id="order-total">0.00</span></p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 CodeCuisine. All rights reserved.</p>
     </footer>
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
